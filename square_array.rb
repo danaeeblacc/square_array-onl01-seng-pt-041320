@@ -1,4 +1,5 @@
 def square_array(array)
-  numbers.each
+  new_numbers = [1,2,3]
+  numbers.each square_array(numbers)
   numbers.collect
 end
